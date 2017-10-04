@@ -1,0 +1,88 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+    <style name="button_type" parent="@style/Widget.AppCompat.Button.Borderless">
+
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:textColor">#787878</item>
+        <item name="android:drawableRight">@drawable/yright</item>
+        <item name="android:background">@drawable/my_button_background</item>
+
+
+    </style>
+
+    <style name="line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1.5dp</item>
+        <item name="android:background">#EDEDED</item>
+
+    </style>
+
+    <style name="button_type2" parent="@style/Widget.AppCompat.Button.Borderless">
+
+        <item name="android:background">#FFFFFF</item>
+
+        <item name="android:textSize">13sp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:gravity">bottom|center</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+
+    </style>
+
+    <style name="title1">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1.5</item>>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/biao</item>
+        <item name="android:textColor">@color/textgray</item>
+
+    </style>
+
+    <style name="title2">
+
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+
+
+    <style name="bottom_tab">
+
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textColor">@drawable/text_color</item>
+        <item name="android:gravity">bottom|center</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+
+
+    </style>
+
+
+
+
+</resources>

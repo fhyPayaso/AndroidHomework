@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.a41061.activitytest.MainActivity">
+
+    <android.support.v4.view.ViewPager
+
+        android:id="@+id/viewpaper_home"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#F2F2F2"
+            android:orientation="vertical"
+            android:layout_gravity="bottom"
+            >
+
+            <View
+                style="@style/line"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+
+
+                    <TextView
+                        android:id="@+id/Fmain"
+                        style="@style/bottom_tab"
+                        android:text="首页"
+                        android:background="@drawable/button_1"
+                        />
+
+
+                    <TextView
+                        android:id="@+id/Fsell"
+                        style="@style/bottom_tab"
+                        android:text="拍卖"
+                        android:background="@drawable/button_2"
+                        />
+
+                    <TextView
+
+                        android:id="@+id/Fmes"
+                        style="@style/bottom_tab"
+                        android:text="信息"
+                        android:background="@drawable/button_3"
+                        />
+                    <TextView
+
+                        android:id="@+id/Fmy"
+                        style="@style/bottom_tab"
+                        android:text="我的"
+                        android:background="@drawable/button_4"
+                        />
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

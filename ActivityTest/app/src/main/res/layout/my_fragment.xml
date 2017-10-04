@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/title1"
+        >
+
+        <TextView
+            android:text="我的"
+            style="@style/title2"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="horizontal"
+        android:background="@drawable/back">
+
+
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/back"
+                app:riv_oval="true"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingRight="40dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="小滑稽"
+                    android:textSize="20dp"
+                    android:textColor="#787878"
+                    android:layout_marginBottom="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="小滑稽小滑稽真滴皮，这是一条很有个性的个性签名"
+                    android:textSize="15dp"
+                    android:textColor="#787878"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical"
+        android:background="#F5F5F5"
+        >
+
+        <View
+            style="@style/line"
+            />
+
+
+        <View
+            style="@style/line"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            style="@style/button_type"
+            android:text="  个人资料"
+            android:drawableLeft="@drawable/bu1"
+            />
+
+        <View
+            style="@style/line"
+            />
+
+        <TextView
+            style="@style/button_type"
+            android:text="  我的小店"
+            android:drawableLeft="@drawable/bu2"
+            />
+
+        <View
+            style="@style/line"
+            />
+
+        <TextView
+            style="@style/button_type"
+            android:text="  我的订单"
+            android:drawableLeft="@drawable/bu3"
+
+            />
+        <View
+            style="@style/line"
+            />
+
+
+
+        <View
+            style="@style/line"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            style="@style/button_type"
+            android:text="  我的收藏"
+            android:drawableLeft="@drawable/bu4"
+
+
+            />
+
+        <View
+            style="@style/line"
+            />
+
+        <TextView
+            style="@style/button_type"
+            android:text="  设置"
+            android:drawableLeft="@drawable/bu5"
+            />
+
+        <View
+            style="@style/line"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
